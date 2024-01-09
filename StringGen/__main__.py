@@ -17,7 +17,7 @@ async def anony_boot():
     for all_module in ALL_MODULES:
         importlib.import_module("StringGen.modules." + all_module)
 
-    LOGGER.info(f"@{Anony.username} Started.")
+    LOGGER.info(f"@{mhmdwldnnnn.username} Started.")
     await idle()
 
 
